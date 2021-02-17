@@ -8,7 +8,7 @@ app.config.from_object(Config)
 
 @app.route('/')
 def index():
-    return 'Hello World!'
+    return 'Hello Pete!'
 
 
 if __name__ == '__main__':
